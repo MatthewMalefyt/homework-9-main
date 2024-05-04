@@ -1,0 +1,21 @@
+1. SQL is a standard language used for accessing and manipulating databases.
+SQL statements are used to perform tasks such as 
+to update data on a database or retrieve data from a database.
+It is particularly useful in handling relational databases.
+
+A relational database is a collection of information that 
+organizes data in predefined relationships such that data is stored in  
+tables of columns and rows. This makes it 
+easy to see and understand the data in the database and 
+how they relate to each other.
+
+
+4. PDO (or PHP Data Objects) is a lean, consistent way to access databases. 
+It makes it possible for developers to write portable code much easier.  
+PDO provides a data-access abstraction layer meaning that 
+it allows you to use the same functions to issue queries and fetch data 
+regardless of which database you're using.
+
+A Prepared Statement is needed in order to protect against certain hacking 
+attacks. Specifically, prepared statements are very useful against SQL 
+injections because parameter values don't need to be correctly escaped.
